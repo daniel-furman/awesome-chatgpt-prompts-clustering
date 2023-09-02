@@ -21,8 +21,8 @@
 
 ### Exemplar point analysis
 
-![](exemplars_experiment_02_09_2023_16_54_32.png)
+![](assets/exemplars_experiment_02_09_2023_16_54_32.png)
 
-* Identify the most persistent points in each leaf cluster - the "exemplars"
-    * Exemplars represent the cluster "hearts", in other words, the cases around which the ultimate cluster formed
-    * See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information
+**Figure 1**. Identifying the most persistent points in each leaf cluster - the "exemplars". These represent the cluster "hearts" around which the ultimate cluster formed.
+
+* See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information
