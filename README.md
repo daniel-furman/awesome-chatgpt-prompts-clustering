@@ -29,6 +29,6 @@
 * The above data corresponds to `experiment_02_09_2023_16_54_32`
 * See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information on exemplars
 
-### Create summary themes knowledge graph with GPT-4
+### Create summary themes knowledge graph with gpt-3.5-turbo
 
 **TODO**
