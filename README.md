@@ -32,7 +32,7 @@
 
 ### Sub-Clustering
 
-**Figure 2**. Sub-clustering of exemplars helps uncover sub-topics across the dataset. The cases in each sub-cluster are then used to generate themes below.
+**Figure 2**. Sub-clustering of exemplars helps uncover core themes across the dataset. The cases in each sub-cluster serve as context for the `gpt-3.5-turbo-16k` prompts below.
 
 ![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_2.png)
 
