@@ -9,7 +9,7 @@
 Segment common items in a given text dataset to pinpoint its core themes and their overall coverage. 
 * Clusters should cover the main topics/subtopics within the dataset, refered to as "themes" herein. 
 * Clusters should map to the raw data comprehensively, as well as be illustrated by helpful summaries.
-* The pipeline should be reproducible, easy to run/extend to new datasets, and automated from start to finish.
+* The pipeline should be reproducible, easy to extend to new datasets, and automated from start to finish.
 
 ## Background
 
