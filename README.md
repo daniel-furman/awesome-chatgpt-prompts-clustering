@@ -16,7 +16,7 @@
 
 ## Experiments
 
-* The below figures correspond to `[experiments/02_09_2023_16_54_32](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/02_09_2023_16_54_32)`
+* The below figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/02_09_2023_16_54_32)
 
 ### Exemplars
 
