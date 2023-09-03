@@ -6,14 +6,14 @@
 
 ## Goals
 
-Segment common items in a given text dataset to pinpoint its core themes and their overall coverage. 
-* Clusters should cover the main topics/subtopics within the dataset, refered to as "themes" herein. 
-* Clusters should map to the raw data comprehensively, as well as be illustrated by helpful summaries.
-* The pipeline should be reproducible, easy to extend to new datasets, and automated from start to finish.
+1. Segment common items in a given text dataset to pinpoint its core themes and their overall coverage. 
+    * Clusters should cover the main topics/subtopics within the dataset. 
+    * Clusters should map comprehensively to the raw data and be illustrated by helpful summaries.
+2. The code implemenation should be reproducible, easy to extend to new datasets, and automated from start to finish.
 
 ## Background
 
-We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) in this repo to probabilistically segment text into clusters. This algorithm is superior to other clustering methods in many ways, including the following:
+We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) to probabilistically segment text into clusters. This algorithm is advantageous in many ways, including:
 
 1. Don’t be wrong: Cluster can have varying densities, don’t need to be globular, and won’t include noise
 2. Intuitive parameters: Choosing a minimum cluster size is very reasonable, and the number of *k* clusters does not need to be specified (HDBSCAN finds the optimal *k* for you)
