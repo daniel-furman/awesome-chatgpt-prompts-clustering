@@ -22,13 +22,17 @@
 
 * The below results correspond to `experiment_02_09_2023_16_54_32`
 
+<br>
+
 ### Exemplars analysis
 
-**Figure 1**. The most persistent prompts in each leaf cluster - the "exemplars". These represent the **hearts** around which the ultimate cluster forms and can be leveraged to pinpoint sub-topics across the dataset.
+**Figure 1**. The most persistent prompts in each leaf cluster - the "exemplars". These represent the hearts around which the ultimate cluster forms.
 
 ![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_1.png)
 
 * See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information on exemplars
+
+<br>
 
 ### Theme summarization
 
@@ -41,9 +45,13 @@
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster4.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster5.png)
 
-* The above figure was generated with https://jsoncrack.com/editor. 
+* The above figure was created with https://jsoncrack.com/editor. 
 
-**Figure 3**. Sub-cluster analysis via exemplar clustering and minimum distance mapping. The overall coverage of each theme is measurable with these outputs, which helps us better understand the distribution of topics across the dataset.
+<br>
+
+### Sub-Clustering
+
+**Figure 3**. Sub-topic analysis via exemplar clustering and minimum distance mapping. The coverage of each theme is now measurable, which helps us better understand the overall distribution of topics.
 
 ![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_2.png)
 
