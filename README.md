@@ -32,7 +32,7 @@
 
 ### Generate summary themes with `gpt-3.5-turbo-16k`
 
-**Figure 2**. A knowledge graph representing each sub-cluster's core theme. Generated via https://jsoncrack.com/editor. 
+**Figure 2**. A knowledge graph visualizing each sub-cluster's core theme and exemplar prompts. The figures were generated via https://jsoncrack.com/editor. 
 
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster0.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster1.png)
