@@ -6,9 +6,10 @@
 
 ## Goals
 
-1. Segment common items in a given text dataset to pinpoint its core themes and their overall coverage. 
-    * Clusters should cover the main topics/subtopics within the dataset. 
-    * Clusters should map comprehensively to the raw data and be illustrated by helpful summaries.
+1. Segment common items in a given text dataset to pinpoint its core themes and their overall coverage. Requirements include:
+    * Clusters cover the main topics/subtopics within the dataset. 
+    * Clusters map comprehensively across the dataset.
+    * Clusters backed by helpful, [`gpt-3.5-turbo-16k`](https://platform.openai.com/docs/models/gpt-3-5) generated summaries.
 2. Package reproducible code that easily extends to new datasets and is automated from start to finish.
 
 ## Background
