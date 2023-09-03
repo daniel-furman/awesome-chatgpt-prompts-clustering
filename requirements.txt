@@ -1,0 +1,13 @@
+tqdm
+datasets
+umap-learn
+hdbscan
+sentence-transformers
+numpy
+torch
+openai
+pandas
+openpyxl
+seaborn
+plotly 
+UliPlot
