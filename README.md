@@ -23,8 +23,11 @@ We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) for p
 
 ## Citations
 
-* Datasets: [`fka/awesome-chatgpt-prompts`](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
-* Embedding model: [`sentence-transformers/all-mpnet-base-v2`](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
+* Datasets
+    * [`fka/awesome-chatgpt-prompts`](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
+    * [`anthropic/hh-rlhf`](https://huggingface.co/datasets/Anthropic/hh-rlhf)    
+* Embedding models
+    * [`sentence-transformers/all-mpnet-base-v2`](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
 
 ## Experiments
 
