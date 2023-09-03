@@ -32,7 +32,7 @@
 
 ### Theme summarization
 
-**Figure 2**. A knowledge graph visualizing each sub-cluster's core theme and exemplar prompts. The themes were **automatically generated** by prompting `gpt-3.5-turbo-16k`. The figures were generated via https://jsoncrack.com/editor. 
+**Figure 2**. A knowledge graph visualizing each sub-cluster's core theme and exemplar prompts. The themes were **automatically generated** by prompting `gpt-3.5-turbo-16k`.
 
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster0.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster1.png)
@@ -40,6 +40,8 @@
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster3.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster4.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster5.png)
+
+* The figures were generated via https://jsoncrack.com/editor. 
 
 **Figure 3**. Sub-cluster analysis through exemplar clustering and minimum distance mapping. With such outputs, the **overall coverage** of each theme is measurable, which helps us better understand the distribution of topics.
 
