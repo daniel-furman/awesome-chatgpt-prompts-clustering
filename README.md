@@ -6,9 +6,9 @@
 
 ## Goal
 
-Identify and summarize common data (themes) in natural language datasets via text clustering. 
-* Themes should cover the main topics/sub-topics within the given dataset and be backed by data.
-* The pipeline should be reproducible, easy to run/extend to new datasets, and be automated from A-Z.
+Identify and summarize common data in natural language via text clustering.
+* Clusters should cover the main topics/sub-topics within the given text and be backed by both the raw data and generated summaries.
+* The clustering pipeline should be reproducible, easy to run/extend to new datasets, and automated from start to finish.
 
 ## Citations
 
