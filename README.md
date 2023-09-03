@@ -6,7 +6,7 @@
 
 ## Goal
 
-Segment common data in natural language via text clustering to uncover its core themes.
+Segment common texts in natural language datasets to uncover core themes therein.
 * Clusters should cover the main topics/subtopics within the dataset. The core themes should map comprehensively to the raw data, as well as be illustrated by helpful summaries.
 * The clustering pipeline should be reproducible, easy to run/extend to new datasets, and automated from start to finish.
 
