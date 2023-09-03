@@ -13,7 +13,7 @@
 
 ## Background
 
-We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) to probabilistically segment text into clusters. This algorithm is advantageous in many ways, including:
+We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) for probabilistic clustering. This algorithm is advantageous in many ways, including:
 
 1. Don’t be wrong: Cluster can have varying densities, don’t need to be globular, and won’t include noise
 2. Intuitive parameters: Choosing a minimum cluster size is very reasonable, and the number of *k* clusters does not need to be specified (HDBSCAN finds the optimal *k* for you)
