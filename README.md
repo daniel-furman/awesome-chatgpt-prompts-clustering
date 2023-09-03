@@ -24,7 +24,7 @@ We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) for p
 
 * Datasets
     * [`fka/awesome-chatgpt-prompts`](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
-    * [`Gustavosta/Stable-Diffusion-Prompts`](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)  
+    * [`gustavosta/stable-diffusion-prompts`](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)  
 * Embedding models
     * [`sentence-transformers/all-mpnet-base-v2`](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
 
@@ -69,6 +69,5 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 <br>
 
-### 2. Drift detection between [`Gustavosta/Stable-Diffusion-Prompts`](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)'s train and test sets
-
+### 2. Drift detection for [`gustavosta/stable-diffusion-prompts`](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)
 **Coming**
