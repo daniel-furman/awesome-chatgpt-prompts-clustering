@@ -20,10 +20,10 @@
 
 ### Clustering
 
-**Figure 1**. We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) to probabalistically segment prompts into clusters. This algorithm is superior to other clustering methods in at least four ways:
+**Figure 1**. We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) to probabilistically segment prompts into clusters. This algorithm is superior to other clustering methods in at least four ways:
 
 1. Don’t be wrong: Cluster can have varying densities, don’t need to be globular, and won’t include noise
-2. Intuitive parameters: Choosing a mimnimum cluster size is very reasonable, and the number of *k* clusters does not need to be specified (HDBSCAN finds the optomal *k* for you)
+2. Intuitive parameters: Choosing a minimum cluster size is very reasonable, and the number of *k* clusters does not need to be specified (HDBSCAN finds the optimal *k* for you)
 3. Stability: HDBSCAN is stable over runs and subsampling and has good stability over parameter choices
 4. Performance: When implemented well HDBSCAN can be very efficient; the current implementation has similar performance to fastcluster’s agglomerative clustering
 
