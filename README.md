@@ -9,7 +9,7 @@
 Segment common natural language to pinpoint core themes within text datasets. 
 * Clusters should cover the main topics/subtopics within the dataset, refered to as "themes" herein. 
 * Clusters should map to the raw data comprehensively, as well as be illustrated by helpful summaries.
-* The overall pipeline should be reproducible, easy to run/extend to new datasets, and automated from start to finish.
+* The pipeline should be reproducible, easy to run/extend to new datasets, and automated from start to finish.
 
 ## Citations
 
