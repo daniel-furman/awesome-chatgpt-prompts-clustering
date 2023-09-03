@@ -24,15 +24,15 @@
 
 ### Exemplars analysis
 
-**Figure 1**. Identifying the most persistent prompts in each leaf cluster - the "exemplars". These represent the hearts around which the ultimate cluster forms.
+**Figure 1**. Identifying the most persistent prompts in each leaf cluster - the "exemplars". These represent the **hearts** around which the ultimate cluster forms and can be leveraged to pinpoint sub-topics in the dataset. 
 
 ![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_1.png)
 
 * See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information on exemplars
 
-### Generate summary themes with `gpt-3.5-turbo-16k`
+### Theme summarization
 
-**Figure 2**. A knowledge graph visualizing each sub-cluster's core theme and exemplar prompts. The figures were generated via https://jsoncrack.com/editor. 
+**Figure 2**. A knowledge graph visualizing each sub-cluster's core theme and exemplar prompts. The "core themes" were **automatically generated** by prompting `gpt-3.5-turbo-16k`. The figures were generated via https://jsoncrack.com/editor. 
 
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster0.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster1.png)
