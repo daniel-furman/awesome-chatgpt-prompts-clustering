@@ -6,7 +6,7 @@
 
 ## Goal
 
-Segment common items in a text dataset to pinpoint its core themes and their distribution. 
+Segment common items in a text dataset to pinpoint core themes and their distribution. 
 
 * Clusters cover the main topics/subtopics within the dataset. 
 * Clusters map comprehensively across the dataset.
