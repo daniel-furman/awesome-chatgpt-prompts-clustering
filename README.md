@@ -22,9 +22,9 @@
 
 * The below results correspond to `experiment_02_09_2023_16_54_32`
 
-### Exemplar point analysis
+### Exemplars analysis
 
-**Figure 1**. Identifying the most persistent points in each leaf cluster - the "exemplars". These represent the cluster "hearts" around which the ultimate cluster formed. 
+**Figure 1**. Identifying the most persistent prompts in each leaf cluster - the "exemplars". These represent the hearts around which the ultimate cluster forms.
 
 ![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_1.png)
 
@@ -32,8 +32,7 @@
 
 ### Generate summary themes with `gpt-3.5-turbo-16k`
 
-
-**Figure 2**. A knowledge graph (of sorts) visualizing each sub-cluster's core theme and exemplar prompts. Generated via https://jsoncrack.com/editor. 
+**Figure 2**. A knowledge graph representing each sub-cluster's core theme. Generated via https://jsoncrack.com/editor. 
 
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster0.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster1.png)
@@ -42,7 +41,7 @@
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster4.png)
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster5.png)
 
-**Figure 3**. Mapping all cases to a sub-cluster via euclidean distance.
+**Figure 3**. Sub-cluster analysis through exemplar clustering and minimum distance mapping. With such outputs, the overall coverage of each theme is measurable.
 
 ![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_2.png)
 
