@@ -8,8 +8,7 @@
 
 Segment common items in a text dataset to pinpoint core themes and their distribution. 
 
-* Clusters cover the main topics/subtopics.
-* Clusters map to each item in the dataset.
+* Clusters cover the main topics/subtopics in the dataset.
 * Clusters backed by [`gpt-3.5-turbo-16k`](https://platform.openai.com/docs/models/gpt-3-5) generated summaries.
 
 ## Background
