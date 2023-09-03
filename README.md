@@ -12,7 +12,7 @@
 ## Experiments
 
 
-### `fka/awesome-chatgpt-prompts`
+1. **fka/awesome-chatgpt-prompts**
 
 * The below figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/02_09_2023_16_54_32)
 
