@@ -22,8 +22,6 @@
 
 * The below figures correspond to `experiment_02_09_2023_16_54_32`
 
-<br>
-
 ### Exemplars
 
 **Figure 1**. The most persistent prompts in each leaf cluster are known as "exemplars". These represent the hearts around which the ultimate cluster formed.
@@ -32,11 +30,9 @@
 
 * See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information on the above figure
 
-<br>
-
 ### Sub-Clustering
 
-**Figure 2**. Sub-clustering of exemplars helps uncover sub-topics across the dataset. The cases in each sub-cluster are used to generate the themes below.
+**Figure 2**. Sub-clustering of exemplars helps uncover sub-topics across the dataset. The cases in each sub-cluster are then used to generate themes below.
 
 ![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_2.png)
 
@@ -52,6 +48,3 @@
 ![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster5.png)
 
 * The above figure was created with https://jsoncrack.com/editor
-
-<br>
-
