@@ -9,7 +9,7 @@
 1. Segment common items in a given text dataset to pinpoint its core themes and their overall coverage. 
     * Clusters should cover the main topics/subtopics within the dataset. 
     * Clusters should map comprehensively to the raw data and be illustrated by helpful summaries.
-2. The implemenation should be reproducible, easy to extend to new datasets, and automated from start to finish.
+2. Package reproducible code that easily extends to new datasets and is automated from start to finish.
 
 ## Background
 
