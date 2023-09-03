@@ -11,8 +11,8 @@
 
 ## Citations
 
-* Dataset: [fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
-* Embedding model: [sentence-transformers/all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
+* Dataset: [`fka/awesome-chatgpt-prompts`](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
+* Embedding model: [`sentence-transformers/all-mpnet-base-v2`](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
 
 ## Experiments
 
@@ -24,7 +24,7 @@
 
 ![](experiments/02_09_2023_16_54_32/assets/exemplars_viz_1.png)
 
-* See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information on the above figure
+* See [`hdbscan docs`](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information on the above figure
 
 ### Sub-Clustering
 
@@ -43,4 +43,4 @@
 ![](experiments/02_09_2023_16_54_32/assets/cluster1_subcluster3.png)
 ![](experiments/02_09_2023_16_54_32/assets/cluster0_subcluster0.png)
 
-* The above figure was created with https://jsoncrack.com/editor
+* The above figure was created with `https://jsoncrack.com/editor`
