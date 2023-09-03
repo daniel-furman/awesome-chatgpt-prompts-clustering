@@ -8,17 +8,17 @@
 
 Segment common items in a text dataset to pinpoint core themes and their distribution. 
 
-* Clusters cover the main topics/subtopics in the dataset.
-* Clusters backed by [`gpt-3.5-turbo-16k`](https://platform.openai.com/docs/models/gpt-3-5) generated summaries.
+* Clusters cover the main topics/subtopics in the dataset
+* Clusters backed by [`gpt-3.5-turbo-16k`](https://platform.openai.com/docs/models/gpt-3-5) generated summaries
 
 ## Background
 
 We employ [`HDBSCAN`](https://hdbscan.readthedocs.io/en/latest/index.html) for probabilistic clustering. This algorithm is advantageous in many ways, including:
 
-1. Don’t be wrong: Cluster can have varying densities, don’t need to be globular, and won’t include noise
-2. Intuitive parameters: Choosing a minimum cluster size is very reasonable, and the number of *k* clusters does not need to be specified (HDBSCAN finds the optimal *k* for you)
-3. Stability: HDBSCAN is stable over runs and subsampling and has good stability over parameter choices
-4. Performance: When implemented well HDBSCAN can be very efficient; the current implementation has similar performance to fastcluster’s agglomerative clustering
+* Don’t be wrong: Cluster can have varying densities, don’t need to be globular, and won’t include noise
+* Intuitive parameters: Choosing a minimum cluster size is very reasonable, and the number of *k* clusters does not need to be specified (HDBSCAN finds the optimal *k* for you)
+* Stability: HDBSCAN is stable over runs and subsampling and has good stability over parameter choices
+* Performance: When implemented well HDBSCAN can be very efficient; the current implementation has similar performance to fastcluster’s agglomerative clustering
 
 ## Citations
 
