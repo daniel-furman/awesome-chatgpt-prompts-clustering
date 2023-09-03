@@ -4,12 +4,10 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-## Goals
+## Goal
 
-1. Segment common items in a text dataset to pinpoint its core themes and their distribution. 
-2. Package reproducible code that easily extends to new datasets and is automated from start to finish.
+Segment common items in a text dataset to pinpoint its core themes and their distribution. 
 
-Requirements include:
 * Clusters cover the main topics/subtopics within the dataset. 
 * Clusters map comprehensively across the dataset.
 * Clusters backed by helpful, [`gpt-3.5-turbo-16k`](https://platform.openai.com/docs/models/gpt-3-5) generated summaries.
