@@ -20,15 +20,29 @@
 
 ## Experiments
 
-### Exemplar point analysis
+* The below results correspond to `experiment_02_09_2023_16_54_32`
 
-![](assets/exemplars_experiment_02_09_2023_16_54_32.png)
+### Exemplar point analysis
 
 **Figure 1**. Identifying the most persistent points in each leaf cluster - the "exemplars". These represent the cluster "hearts" around which the ultimate cluster formed. 
 
-* The above data corresponds to `experiment_02_09_2023_16_54_32`
+![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_1.png)
+
 * See [hdbscan docs](https://hdbscan.readthedocs.io/en/latest/soft_clustering_explanation.html#distance-based-membership) for more information on exemplars
 
-### Create summary themes knowledge graph with gpt-3.5-turbo
+### Generate summary themes with `gpt-3.5-turbo-16k`
 
-**TODO**
+
+**Figure 2**. A knowledge graph (of sorts) visualizing each sub-cluster's core theme and exemplar prompts. Generated via https://jsoncrack.com/editor. 
+
+![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster0.png)
+![](assets/experiment_02_09_2023_16_54_32/cluster0_subcluster1.png)
+![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster2.png)
+![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster3.png)
+![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster4.png)
+![](assets/experiment_02_09_2023_16_54_32/cluster1_subcluster5.png)
+
+**Figure 3**. Mapping all cases to a sub-cluster via euclidean distance.
+
+![](assets/experiment_02_09_2023_16_54_32/exemplars_viz_2.png)
+
