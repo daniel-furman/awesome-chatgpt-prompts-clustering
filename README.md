@@ -32,7 +32,7 @@ We employ [HDBSCAN](https://hdbscan.readthedocs.io/en/latest/index.html) for pro
 
 <br>
 
-### 1. Visualizing [fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)'s core themes
+### 1. Visualizing core themes in [fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
 
 These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/02_09_2023_16_54_32)
 
