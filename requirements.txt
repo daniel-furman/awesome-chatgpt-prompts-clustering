@@ -11,3 +11,5 @@ openpyxl
 seaborn
 plotly 
 UliPlot
+tiktoken
+cleantext

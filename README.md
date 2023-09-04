@@ -70,4 +70,5 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 <br>
 
 ### 2. Drift detection for [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)
+
 **Coming**
