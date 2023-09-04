@@ -71,7 +71,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 ### 2. Drift detection for [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)
 
-### Top Stable Diffusion Prompt Themes
+### Identify Top Themes
 
 ![](experiments/04_09_2023_03_02_25/assets/top_9_themes.png)
 
