@@ -80,13 +80,13 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 | 74         | Surreal, cinematic, and futuristic digital art                                                             |
 
 
-| cluster id | train count  | test count  | drift (% change) |
-|------------|--------------|-------------|------------------|
-| 56         | 2530 (3.43%) | 310 (3.78%) | 10.20            |
-| 13         | 1343 (1.82%) | 149 (1.81%) | 0.55             |
-| 61         | 1287 (1.75%) | 131 (1.60%) | -8.57            |
-| 50         | 1055 (1.43%) | 135 (1.65%) | 15.38            |
-| 74         | 749 (1.02%)  | 109 (1.33%) | 30.39            |
+| cluster id | train count<br />(73.7k rows) | test count<br />(8.19k rows) | drift (% change) |
+|------------|-------------------------------|------------------------------|------------------|
+| 56         | 2530 (3.43%)                  | 310 (3.79%)                  | 10.50            |
+| 13         | 1343 (1.82%)                  | 149 (1.82%)                  | 0.00             |
+| 61         | 1287 (1.75%)                  | 131 (1.60%)                  | -8.57            |
+| 50         | 1055 (1.43%)                  | 135 (1.65%)                  | 15.38            |
+| 74         | 749 (1.02%)                   | 109 (1.33%)                  | 30.39            |
 
 **Tables 1 & 2**. Drift detected for the top 5 largest clusters (bottom), alongside their [claude-2](https://claude.ai/) summaries (top).
 
