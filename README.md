@@ -85,29 +85,37 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 
 **Table 1**. Generated summaries for the top 5 most frequent clusters. 
 
+| cluster id | train count  | test count | drift (% change) |
+|------------|--------------|------------|------------------|
+| 56         | 2530 (3.43%) |            |                  |
+| 13         | 1343 (1.82%) |            |                  |
+| 61         | 1287 (1.75%) |            |                  |
+| 50         | 1055 (1.43%) |            |                  |
+| 74         | 749 (1.02%)  |            |                  |
+
 **Table 2**. Drift detected for the top 5 most frequent clusters.
 
 <br>
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/aspens_runway.jpeg"/ width = "550" height = "366"> </p>
 
-Prompt: "*Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation*" <br>
-Model: [Runway Gen-2](https://app.runwayml.com/video-tools/teams/dryanfurman/ai-tools/text-to-image) (accessed Sep 4, 2023) <br>
-Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"  <br>
+**Prompt**: "*Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation*" <br>
+**Model**: [Runway Gen-2](https://app.runwayml.com/video-tools/teams/dryanfurman/ai-tools/text-to-image) (accessed Sep 4, 2023) <br>
+**Cluster 75, Sub-Cluster 167**: "Beautiful landscape paintings and matte art"  <br>
 
 <br>
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/batman_midjourney.png"/ width = "375" height = "375"> </p>
 
-Prompt: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
-Model: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
-Cluster 41, Sub-Cluster 89: "Art and portraits of Batman characters" <br>
+**Prompt**: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
+**Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
+**Cluster 41, Sub-Cluster 89**: "Art and portraits of Batman characters" <br>
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/futuristic_car_midjourney.png"/ width = "500" height = "384"> </p>
 
-Prompt: "*Futuristic Porsche designed by Apple, a detailed matte painting by Kitagawa Utamaro, cgsociety, octane render, highly detailed, matte painting, concept art, sci-fi*" <br>
-Model: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
-Cluster 52, Sub-Cluster 84: "Futuristic and fantasy vehicle concept art."  <br>
+**Prompt**: "*Futuristic Porsche designed by Apple, a detailed matte painting by Kitagawa Utamaro, cgsociety, octane render, highly detailed, matte painting, concept art, sci-fi*" <br>
+**Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
+**Cluster 52, Sub-Cluster 84**: "Futuristic and fantasy vehicle concept art."  <br>
 
 
-**Figure 5**. A sample of 3 text to image generations from the [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) dataset alongside their cluster label. 
+**Figure 5**. A sample of 3 text to image generations from the [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) dataset (alongside their cluster label). 
