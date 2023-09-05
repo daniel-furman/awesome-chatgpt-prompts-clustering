@@ -50,7 +50,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 ![](experiments/02_09_2023_16_54_32/assets/exemplars_viz_2.png)
 
-**Figure 3**. Additional clustering is conducted around the exemplars to identify sub-topics in the dataset. The cases in each sub-cluster then serve as context for the LLM theme summarization calls below.
+**Figure 3**. Additional clustering is conducted around the exemplars to identify sub-topics in the dataset. The cases in each sub-cluster subsequently serve as retrieved context for the LLM theme summarization calls below.
 
 ![](experiments/02_09_2023_16_54_32/assets/cluster0_subcluster0.png)
 
@@ -80,13 +80,13 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 | 74         | Surreal, cinematic, and futuristic digital art                                                             |
 
 
-| cluster id | train count  | test count | drift (% change) |
-|------------|--------------|------------|------------------|
-| 56         | 2530 (3.43%) |            |                  |
-| 13         | 1343 (1.82%) |            |                  |
-| 61         | 1287 (1.75%) |            |                  |
-| 50         | 1055 (1.43%) |            |                  |
-| 74         | 749 (1.02%)  |            |                  |
+| cluster id | train count  | test count  | drift (% change) |
+|------------|--------------|-------------|------------------|
+| 56         | 2530 (3.43%) | 310 (3.78%) | 10.20            |
+| 13         | 1343 (1.82%) | 149 (1.81%) | 0.55             |
+| 61         | 1287 (1.75%) | 131 (1.60%) | -8.57            |
+| 50         | 1055 (1.43%) | 135 (1.65%) | 15.38            |
+| 74         | 749 (1.02%)  | 109 (1.33%) | 30.39            |
 
 **Tables 1 & 2**. Drift detected for the top 5 largest clusters (bottom), alongside their [claude-2](https://claude.ai/) summaries (top).
 
