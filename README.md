@@ -42,7 +42,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 ![](experiments/02_09_2023_16_54_32/assets/clusters_viz_1.png)
 
-**Figure 1**. The clustering algorithm splits the data into three segments, "cluster 0" with 44 prompts (orange), "cluster 1" with 105 prompts (blue), and "outliers" with 4 prompts (gray).
+**Figure 1**. HDBSCAN splits the data into three segments, "cluster 0" with 44 prompts (orange), "cluster 1" with 105 prompts (blue), and "outliers" with 4 prompts (gray).
 
 ![](experiments/02_09_2023_16_54_32/assets/exemplars_viz_1.png)
 
@@ -73,7 +73,7 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 ---
 
-The clustering algorithm splits the data into 79 segments, with 48699 of the 73718 prompts (66%) being filtered out as outliers. The 25 largest clusters cover 20.6% of the dataset. Out of these, we selected 5 clusters of interest to examine for drift detection below.
+HDBSCAN splits the stable diffusion prompts into clusters, with 48699 (66%) binned as outliers and 25019 (33%) grouped into 78 clusters. The 25 largest clusters cover 20.6% of the dataset - out of these, we select 5 of interest to examine for drift detection below:
 
 ![](experiments/04_09_2023_03_02_25/assets/selected_5_themes.png)
 
