@@ -32,7 +32,7 @@ See the HDBSCAN docs on [comparing clustering algorithms](https://hdbscan.readth
 
 ## Experiments
 
-### 1. Visualizing core themes in [fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
+## 1. Visualizing core themes in [fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
 
 These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/02_09_2023_16_54_32)
 
@@ -63,7 +63,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 <br>
 
-### 2. Drift detection for [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)
+## 2. Drift detection for [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)
 
 These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/04_09_2023_03_02_25)
 
