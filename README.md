@@ -73,7 +73,7 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 ---
 
-HDBSCAN splits the stable diffusion prompts into clusters, with 48699 (66%) binned as outliers and 25019 (33%) grouped into 78 clusters. The 25 largest clusters cover 20.6% of the dataset - which we will examine for drift below:
+HDBSCAN splits the stable diffusion prompts into clusters, with 48699 (66%) binned as outliers and 25019 (33%) grouped into 78 clusters. The 25 largest clusters cover 20.6% of the dataset - which we will examine for drift.
 
 ![](experiments/04_09_2023_03_02_25/assets/selected_5_themes.png)
 
