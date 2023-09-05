@@ -107,7 +107,7 @@ Prompt: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
 Model: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
 Cluster 41, Sub-Cluster 89: "Art and portraits of Batman characters" <br>
 
-<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/futuristic_car_midjourney.png"/ width = "550" height = "423"> </p>
+<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/futuristic_car_midjourney.png"/ width = "500" height = "384"> </p>
 
 Prompt: "*Futuristic Porsche designed by Apple, a detailed matte painting by Kitagawa Utamaro, cgsociety, octane render, highly detailed, matte painting, concept art, sci-fi*" <br>
 Model: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
