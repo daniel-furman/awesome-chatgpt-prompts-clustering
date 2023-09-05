@@ -101,7 +101,7 @@ Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"  <br>
 
 <br>
 
-<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/batman_midjourney.png"/ width = "325" height = "325"> </p>
+<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/batman_midjourney.png"/ width = "375" height = "375"> </p>
 
 Prompt: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
 Model: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
