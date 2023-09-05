@@ -73,7 +73,7 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 ---
 
-HDBSCAN splits the stable diffusion prompts into clusters, with 48699 (66%) binned as outliers and 25019 (33%) grouped into 78 clusters. The 25 largest clusters cover 20.6% of the dataset - which we will examine for drift.
+HDBSCAN splits the stable diffusion prompts at hand into several dozens of clusters, with 48699 (66%) binned as outliers and 25019 (33%) grouped into 78 clusters. The 25 largest clusters cover 20.6% of the dataset - these are the themes we will examine for drift in this experiment.
 
 ![](experiments/04_09_2023_03_02_25/assets/selected_5_themes.png)
 
@@ -81,3 +81,7 @@ HDBSCAN splits the stable diffusion prompts into clusters, with 48699 (66%) binn
 
 
 **More Coming**
+
+| cluster | train count  | test count | drift (% change) | themes                                                                                                                                                                                                                      |
+|---------|--------------|------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 56      | 2530 (3.43%) |            |                  | 1. "Sub-Cluster 113: Anime girl character portraits and concept art." 2. "Sub-Cluster 117: Portraits of beautiful women in various settings." 3. "Sub-Cluster 118: Portraits of young women in various outfits and styles." |
