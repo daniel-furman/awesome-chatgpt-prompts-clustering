@@ -78,8 +78,6 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 | 61         | Futuristic sci-fi spaceship concept art                                                                    |
 | 50         | Portraits of famous actresses as characters in various roles, outfits, and styles                          |
 | 74         | Surreal, cinematic, and futuristic digital art                                                             |
-| 74         | Surreal, cinematic, and futuristic digital art                                                             |
-
 
 | cluster id | train count<br />(73.7k rows) | test count<br />(8.19k rows) | drift detection<br />(% change) |
 |------------|-------------------------------|------------------------------|------------------|
@@ -89,25 +87,7 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 | 50         | 1055 (1.43%)                  | 135 (1.65%)                  | 15.38            |
 | 74         | 749 (1.02%)                   | 109 (1.33%)                  | 30.39            |
 | 77         | 714 (0.97%)                   | 109 (1.33%)                  | 30.39            |
-| 25         | 654 (0.89%)                   |  
-| 31         | 578 (0.78%)                   | 
-| 44         | 493 (0.67%)                   | 
-| 75         | 487 (0.66%)                   | 
-| 37         | 468 (0.63%)                   | 
-| 41         | 419 (0.57%)                   | 
-| 54         | 416 (0.56%)                   | 
-| 68         | 410 (0.56%)                   | 
-| 33         | 389 (0.53%)                   | 
-| 42         | 372 (0.50%)                   | 
-| 46         | 359 (0.49%)                   | 
-| 60         | 353 (0.48%)                   | 
-| 19         | 327 (0.44%)                   | 
-| 36         | 319 (0.43%)                   | 
-| 10         | 316 (0.43%)                   | 
-| 52         | 306 (0.42%)                   | 
-| 18         | 295 (0.40%)                   | 
-| 35         | 289 (0.39%)                   | 
-| 40         | 282 (0.38%)                   |  
+
 
 **Tables 1 & 2**. Drift detection for the top 5 largest clusters (bottom), alongside their [claude-2](https://claude.ai/) summaries (top).
 
