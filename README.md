@@ -75,7 +75,7 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 5 largest clusters cover 9.5% of the dataset - these are the segments we will examine for drift below. 
 
-| cluster id | summary |
+| cluster id | theme |
 |------------|--------------|
 | 56         | Portraits and artistic depictions of female anime characters, beautiful women, and fashionable young women |
 | 13         | Symmetrical portraits of people, characters, and sci-fi figures                                            |
@@ -100,7 +100,7 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 
 **Prompt**: "*Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation*" <br>
 **Model**: [Runway Gen-2](https://app.runwayml.com/video-tools/teams/dryanfurman/ai-tools/text-to-image) (accessed Sep 4, 2023) <br>
-**Cluster**: "Beautiful landscape paintings and matte art"  <br>
+**Theme**: "Beautiful landscape paintings and matte art"  (cluster id: 75)<br>
 
 <br>
 
@@ -108,13 +108,13 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 
 **Prompt**: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
 **Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
-**Cluster**: "Art and portraits of Batman characters" <br>
+**Theme**: "Art and portraits of Batman characters" (cluster id: 41)<br>
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/futuristic_car_midjourney.png"/ width = "500" height = "384"> </p>
 
 **Prompt**: "*Futuristic Porsche designed by Apple, a detailed matte painting by Kitagawa Utamaro, cgsociety, octane render, highly detailed, matte painting, concept art, sci-fi*" <br>
 **Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
-**Cluster**: "Futuristic and fantasy vehicle concept art."  <br>
+**Theme**: "Futuristic and fantasy vehicle concept art"  (cluster id: 52) <br>
 
 
-**Figure 5**. A sample of 3 text to image generations from the [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) dataset (alongside their cluster label). 
+**Figure 5**. A sample of 3 text to image generations with various models for prompts from the [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) dataset (alongside their cluster label). 
