@@ -95,9 +95,9 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/aspens_runway.jpeg"/ width = "550" height = "366"> </p>
 
-Prompt: "Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation", Runway Gen-2 (accessed Sep 4, 2023)
-
-* Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"
+Prompt: "Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation" <br>
+Model: Runway Gen-2 (accessed Sep 4, 2023) <br>
+Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"  <br>
 
 <br>
 
