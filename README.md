@@ -80,7 +80,7 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 | 74         | Surreal, cinematic, and futuristic digital art                                                             |
 
 
-| cluster id | train count<br />(73.7k rows) | test count<br />(8.19k rows) | drift (% change) |
+| cluster id | train count<br />(73.7k rows) | test count<br />(8.19k rows) | drift detection<br />(% change) |
 |------------|-------------------------------|------------------------------|------------------|
 | 56         | 2530 (3.43%)                  | 310 (3.79%)                  | 10.50            |
 | 13         | 1343 (1.82%)                  | 149 (1.82%)                  | 0.00             |
