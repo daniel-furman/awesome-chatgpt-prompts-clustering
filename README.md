@@ -9,7 +9,7 @@
 Segment common items in a text dataset to pinpoint core themes and their distribution. 
 
 * Clusters cover the main topics/subtopics in the dataset
-* Clusters backed by [gpt-3.5-turbo-16k](https://platform.openai.com/docs/models/gpt-3-5) generated summaries
+* Clusters backed by accurate, LLM generated summaries
 
 ## Background
 
@@ -50,7 +50,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 ![](experiments/02_09_2023_16_54_32/assets/exemplars_viz_2.png)
 
-**Figure 3**. Additional clustering is conducted around the exemplars to identify sub-topics in the dataset. The cases in each sub-cluster then serve as context for the [gpt-3.5-turbo-16k](https://platform.openai.com/docs/models/gpt-3-5) calls below.
+**Figure 3**. Additional clustering is conducted around the exemplars to identify sub-topics in the dataset. The cases in each sub-cluster then serve as context for the LLM calls below.
 
 ![](experiments/02_09_2023_16_54_32/assets/cluster0_subcluster0.png)
 ![](experiments/02_09_2023_16_54_32/assets/cluster0_subcluster1.png)
@@ -73,17 +73,7 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 ---
 
-HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 25 largest clusters cover 21% of the dataset - these are the segments we will examine in this experiment. 
-
-| cluster id | claude-2 summary |
-|------------|--------------|
-| 56         | Portraits and artistic depictions of female anime characters, beautiful women, and fashionable young women |
-| 13         | Symmetrical portraits of people, characters, and sci-fi figures                                            |
-| 61         | Futuristic sci-fi spaceship concept art                                                                    |
-| 50         | Portraits of famous actresses as characters in various roles, outfits, and styles                          |
-| 74         | Surreal, cinematic, and futuristic digital art                                                             |
-
-**Table 1**. Generated summaries for the top 5 most frequent clusters. 
+HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 5 largest clusters cover 9.5% of the dataset - these are the segments we will examine for drift below. 
 
 | cluster id | train count  | test count | drift (% change) |
 |------------|--------------|------------|------------------|
@@ -93,7 +83,15 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 | 50         | 1055 (1.43%) |            |                  |
 | 74         | 749 (1.02%)  |            |                  |
 
-**Table 2**. Drift detected for the top 5 most frequent clusters.
+| cluster id | summary |
+|------------|--------------|
+| 56         | Portraits and artistic depictions of female anime characters, beautiful women, and fashionable young women |
+| 13         | Symmetrical portraits of people, characters, and sci-fi figures                                            |
+| 61         | Futuristic sci-fi spaceship concept art                                                                    |
+| 50         | Portraits of famous actresses as characters in various roles, outfits, and styles                          |
+| 74         | Surreal, cinematic, and futuristic digital art                                                             |
+
+**Tables**. Drift detected for the top 5 most frequent clusters, along with their [claude-2](https://claude.ai/) generated summaries.
 
 <br>
 
