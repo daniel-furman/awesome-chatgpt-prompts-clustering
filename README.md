@@ -36,6 +36,8 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 <a target="_blank" href="https://colab.research.google.com/github/daniel-furman/awesome-chatgpt-prompts-clustering/blob/main/notebooks/awesome-chatgpt-prompts-clustering.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
+---
+
 ![](experiments/02_09_2023_16_54_32/assets/clusters_viz_1.png)
 
 **Figure 1**. The clustering algorithm splits the data into three segments, "cluster 0" with 44 prompts (orange), "cluster 1" with 105 prompts (blue), and "outliers" with 4 prompts (gray). See the HDBSCAN docs on [comparing clustering algorithms](https://hdbscan.readthedocs.io/en/latest/comparing_clustering_algorithms.html#hdbscan) and [how hdbscan works](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html) for more information.
@@ -66,6 +68,10 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 <a target="_blank" href="https://colab.research.google.com/github/daniel-furman/awesome-chatgpt-prompts-clustering/blob/main/notebooks/stable-diffusion-prompts-clustering.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+---
+
+The clustering algorithm splits the data into three segments, "cluster 0" with 44 prompts (orange), "cluster 1" with 105 prompts (blue), and "outliers" with 4 prompts (gray). See the HDBSCAN docs on [comparing clustering algorithms](https://hdbscan.readthedocs.io/en/latest/comparing_clustering_algorithms.html#hdbscan) and [how hdbscan works](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html) for more information.
 
 ![](experiments/04_09_2023_03_02_25/assets/selected_5_themes.png)
 
