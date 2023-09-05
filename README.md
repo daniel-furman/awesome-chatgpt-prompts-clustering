@@ -75,13 +75,13 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 25 largest clusters cover 21% of the dataset - these are the segments we will examine in this experiment. 
 
-| cluster id | train count  | claude-2 summary                                                                                           |
-|------------|--------------|------------------------------------------------------------------------------------------------------------|
-| 56         | 2530 (3.43%) | Portraits and artistic depictions of female anime characters, beautiful women, and fashionable young women |
-| 13         | 1343 (1.82%) | Symmetrical portraits of people, characters, and sci-fi figures                                            |
-| 61         | 1287 (1.75%) | Futuristic sci-fi spaceship concept art                                                                    |
-| 50         | 1055 (1.43%) | Portraits of famous actresses as characters in various roles, outfits, and styles                          |
-| 74         | 749 (1.02%)  | Surreal, cinematic, and futuristic digital art                                                             |
+| cluster id | claude-2 summary |
+|------------|--------------|
+| 56         | Portraits and artistic depictions of female anime characters, beautiful women, and fashionable young women |
+| 13         | Symmetrical portraits of people, characters, and sci-fi figures                                            |
+| 61         | Futuristic sci-fi spaceship concept art                                                                    |
+| 50         | Portraits of famous actresses as characters in various roles, outfits, and styles                          |
+| 74         | Surreal, cinematic, and futuristic digital art                                                             |
 
 **Table 1**. Generated summaries for the top 5 most frequent clusters. 
 
