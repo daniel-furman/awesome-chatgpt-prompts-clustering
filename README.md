@@ -100,7 +100,7 @@ HDBSCAN splits these 73,718 text to image prompts into 78 clusters with 25,019 (
 
 **Prompt**: "*Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation*" <br>
 **Model**: [Runway Gen-2](https://app.runwayml.com/video-tools/teams/dryanfurman/ai-tools/text-to-image) (accessed Sep 4, 2023) <br>
-**Theme**: "Beautiful landscape paintings and matte art"  (cluster id: 75)<br>
+**Theme**: Beautiful landscape paintings and matte art  (cluster id: 75)<br>
 
 <br>
 
@@ -108,13 +108,13 @@ HDBSCAN splits these 73,718 text to image prompts into 78 clusters with 25,019 (
 
 **Prompt**: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
 **Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
-**Theme**: "Art and portraits of Batman characters" (cluster id: 41)<br>
+**Theme**: Art and portraits of Batman characters (cluster id: 41)<br>
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/futuristic_car_midjourney.png"/ width = "500" height = "384"> </p>
 
 **Prompt**: "*Futuristic Porsche designed by Apple, a detailed matte painting by Kitagawa Utamaro, cgsociety, octane render, highly detailed, matte painting, concept art, sci-fi*" <br>
 **Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
-**Theme**: "Futuristic and fantasy vehicle concept art"  (cluster id: 52) <br>
+**Theme**: Futuristic and fantasy vehicle concept art  (cluster id: 52) <br>
 
 
-**Figure 5**. A sample of 3 text to image generations with various models for prompts from the [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) dataset (alongside their cluster label). 
+**Figure 5**. A sample of 3 text to image generations with various models for prompts from the [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) dataset (alongside their cluster id). 
