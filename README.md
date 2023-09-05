@@ -82,6 +82,6 @@ HDBSCAN splits the stable diffusion prompts at hand into several dozens of clust
 
 **More Coming**
 
-| cluster id | train count  | test count | drift (% change) | theme                                                                                                                                                                                                                       |
-|------------|--------------|------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 56         | 2530 (3.43%) |            |                  | 1. "Sub-Cluster 113: Anime girl character portraits and concept art." 2. "Sub-Cluster 117: Portraits of beautiful women in various settings." 3. "Sub-Cluster 118: Portraits of young women in various outfits and styles." |
+| cluster id | train count  | test count | drift<br />(% change) | theme                                                                                                                                                                                                                                         |
+|------------|--------------|------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 56         | 2530 (3.43%) |            |                       | 1. "Sub-Cluster 113: Anime girl character portraits and concept art."<br /> 2. "Sub-Cluster 117: Portraits of beautiful women in various settings."<br /> 3. "Sub-Cluster 118: Portraits of young women in various outfits and styles."<br /> |
