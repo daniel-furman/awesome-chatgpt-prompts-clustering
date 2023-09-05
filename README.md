@@ -95,7 +95,7 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/aspens_runway.jpeg"/ width = "550" height = "366"> </p>
 
-Prompt: "Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation" <br>
+Prompt: "*Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation*" <br>
 Model: Runway Gen-2 (accessed Sep 4, 2023) <br>
 Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"  <br>
 
@@ -103,7 +103,7 @@ Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"  <br>
 
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/batman_midjourney.png"/ width = "325" height = "325"> </p>
 
-Prompt: "Futuristic batman, brush strokes, oil painting, greg rutkowski" <br>
+Prompt: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
 Model: Midjourney V5.2 (accessed Sep 4, 2023) <br>
 Cluster 41, Sub-Cluster 89: "Art and portraits of Batman characters" <br>
 
