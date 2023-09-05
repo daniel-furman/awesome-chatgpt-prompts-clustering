@@ -92,7 +92,7 @@ HDBSCAN splits these 73,718 text to image prompts into 78 clusters with 25,019 (
 | 50         | 1055 (1.43%) |            |                  |
 | 74         | 749 (1.02%)  |            |                  |
 
-**Tables 1 & 2**. Drift detected for the top 5 largest clusters, along with their [claude-2](https://claude.ai/) generated summaries.
+**Tables 1 & 2**. Drift detected for the top 5 largest clusters (bottom), alongside their [claude-2](https://claude.ai/) generated summaries (top).
 
 <br>
 
