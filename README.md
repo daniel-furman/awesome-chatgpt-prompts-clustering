@@ -30,8 +30,6 @@ We employ [HDBSCAN](https://hdbscan.readthedocs.io/en/latest/index.html) for pro
 
 ## Experiments
 
-<br>
-
 ### 1. Visualizing core themes in [fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)
 
 These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/02_09_2023_16_54_32)
@@ -62,6 +60,12 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 <br>
 
 ### 2. Drift detection for [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts)
+
+These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/04_09_2023_03_02_25)
+
+<a target="_blank" href="https://colab.research.google.com/github/daniel-furman/awesome-chatgpt-prompts-clustering/blob/main/notebooks/stable-diffusion-prompts-clustering.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ![](experiments/04_09_2023_03_02_25/assets/selected_5_themes.png)
 
