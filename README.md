@@ -86,7 +86,6 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 | 61         | 1287 (1.75%)                  | 131 (1.60%)                  | -8.57            |
 | 50         | 1055 (1.43%)                  | 135 (1.65%)                  | 15.38            |
 | 74         | 749 (1.02%)                   | 109 (1.33%)                  | 30.39            |
-| 77         | 714 (0.97%)                   | 109 (1.33%)                  | 30.39            |
 
 
 **Tables 1 & 2**. Drift detection for the top 5 largest clusters (bottom), alongside their [claude-2](https://claude.ai/) summaries (top).
