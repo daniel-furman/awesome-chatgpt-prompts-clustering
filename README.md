@@ -75,14 +75,6 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 5 largest clusters cover 9.5% of the dataset - these are the segments we will examine for drift below. 
 
-| cluster id | train count  | test count | drift (% change) |
-|------------|--------------|------------|------------------|
-| 56         | 2530 (3.43%) |            |                  |
-| 13         | 1343 (1.82%) |            |                  |
-| 61         | 1287 (1.75%) |            |                  |
-| 50         | 1055 (1.43%) |            |                  |
-| 74         | 749 (1.02%)  |            |                  |
-
 | cluster id | summary |
 |------------|--------------|
 | 56         | Portraits and artistic depictions of female anime characters, beautiful women, and fashionable young women |
@@ -91,7 +83,16 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 | 50         | Portraits of famous actresses as characters in various roles, outfits, and styles                          |
 | 74         | Surreal, cinematic, and futuristic digital art                                                             |
 
-**Tables**. Drift detected for the top 5 most frequent clusters, along with their [claude-2](https://claude.ai/) generated summaries.
+
+| cluster id | train count  | test count | drift (% change) |
+|------------|--------------|------------|------------------|
+| 56         | 2530 (3.43%) |            |                  |
+| 13         | 1343 (1.82%) |            |                  |
+| 61         | 1287 (1.75%) |            |                  |
+| 50         | 1055 (1.43%) |            |                  |
+| 74         | 749 (1.02%)  |            |                  |
+
+**Tables 1 & 2**. Drift detected for the top 5 largest clusters, along with their [claude-2](https://claude.ai/) generated summaries.
 
 <br>
 
