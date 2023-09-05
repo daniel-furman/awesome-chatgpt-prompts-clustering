@@ -96,7 +96,7 @@ HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,01
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/aspens_runway.jpeg"/ width = "550" height = "366"> </p>
 
 Prompt: "*Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation*" <br>
-Model: Runway Gen-2 (accessed Sep 4, 2023) <br>
+Model: [Runway Gen-2](https://app.runwayml.com/video-tools/teams/dryanfurman/ai-tools/text-to-image) (accessed Sep 4, 2023) <br>
 Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"  <br>
 
 <br>
@@ -104,7 +104,16 @@ Cluster 75, Sub-Cluster 167: "Beautiful landscape paintings and matte art"  <br>
 <p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/batman_midjourney.png"/ width = "325" height = "325"> </p>
 
 Prompt: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
-Model: Midjourney V5.2 (accessed Sep 4, 2023) <br>
+Model: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
 Cluster 41, Sub-Cluster 89: "Art and portraits of Batman characters" <br>
+
+<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/futuristic_car_midjourney.jpeg"/ width = "550" height = "366"> </p>
+
+Prompt: "*Futuristic Porsche designed by Apple, a detailed matte painting by Kitagawa Utamaro, cgsociety, octane render, highly detailed, matte painting, concept art, sci-fi*" <br>
+Model: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed Sep 4, 2023) <br>
+Cluster 52, Sub-Cluster 84: "Futuristic and fantasy vehicle concept art."  <br>
+
+
+<br>
 
 **Figure 6**. 
