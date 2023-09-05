@@ -42,7 +42,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 ![](experiments/02_09_2023_16_54_32/assets/clusters_viz_1.png)
 
-**Figure 1**. HDBSCAN splits these 153 ChatGPT prompts into two clusters: Cluster 1 with 44 prompts (orange) and Cluster 2 with 105 prompts (blue). The 4 remaining prompts (gray) were filtered out as outliers/noise.
+**Figure 1**. HDBSCAN splits these 153 text to text prompts into two clusters: Cluster 1 with 44 prompts (orange) and Cluster 2 with 105 prompts (blue). The 4 remaining prompts (gray) were filtered out as outliers/noise.
 
 ![](experiments/02_09_2023_16_54_32/assets/exemplars_viz_1.png)
 
@@ -73,7 +73,7 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 ---
 
-HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 5 largest clusters cover 9.5% of the dataset - these are the segments we will examine for drift below. 
+HDBSCAN splits these 73,718 text to image prompts into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 5 largest clusters cover 9.5% of the dataset - these are the segments we will examine for drift below. 
 
 | cluster id | theme |
 |------------|--------------|
