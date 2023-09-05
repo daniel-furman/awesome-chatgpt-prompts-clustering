@@ -42,7 +42,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 ![](experiments/02_09_2023_16_54_32/assets/clusters_viz_1.png)
 
-**Figure 1**. HDBSCAN splits the data into three segments, "cluster 0" with 44 prompts (orange), "cluster 1" with 105 prompts (blue), and "outliers" with 4 prompts (gray).
+**Figure 1**. HDBSCAN splits these 153 ChatGPT prompts into two clusters: Cluster 1 with 44 prompts (orange) and Cluster 2 with 105 prompts (blue). The 4 remaining prompts (gray) were filtered out as outliers/noise.
 
 ![](experiments/02_09_2023_16_54_32/assets/exemplars_viz_1.png)
 
@@ -73,7 +73,7 @@ These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.c
 
 ---
 
-HDBSCAN groups 25019 (33%) of the prompts into 78 clusters, with 48699 (66%) filtered out as outliers/noise. The 25 largest clusters cover 20.6% of the dataset - these are the segments we will examine in this experiment. 
+HDBSCAN splits these 73,718 Stable Diffusion prompts into 78 clusters with 25,019 (33%) represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 25 largest clusters cover 21% of the dataset - these are the segments we will examine in this experiment. 
 
 ![](experiments/04_09_2023_03_02_25/assets/selected_5_themes.png)
 
